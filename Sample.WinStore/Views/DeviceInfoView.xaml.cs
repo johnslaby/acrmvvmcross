@@ -1,10 +1,9 @@
 ﻿using System;
-using Acr.MvvmCross.WindowsStore;
-
+using Cirrious.MvvmCross.WindowsStore.Views;
 
 namespace Sample.WinStore.Views {
 
-    public sealed partial class DeviceInfoView : Mvx2StorePage {
+    public sealed partial class DeviceInfoView : MvxStorePage {
     
         public DeviceInfoView() {
             this.InitializeComponent();
